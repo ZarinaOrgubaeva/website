@@ -1,7 +1,6 @@
 import Car from "../../assets/img//car.svg";
 import MoneyBox from "../../assets/img/money.svg";
 import Benefist from "../../assets/img/benefist.svg";
-import Moneys from "../../assets/img/moneys.svg";
 export const homeObjOne = {
   id: "about",
   lightBg: false,
@@ -38,40 +37,6 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-  id: "signUp",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Join our Team",
-  headLine: "Creating an account is extremely easy",
-  description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees ",
-  buttonLabel: "Start Now",
-  imgStart: false,
-  img: Benefist,
-  alt: "benefist",
-  dark: false,
-  darkText: false,
-  primary: true,
-};
-export const homeObjFour = {
-  id: "signUp",
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: "Join our Team",
-  headLine: "Creating an account is extremely easy",
-  description:
-    "Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees ",
-  buttonLabel: "Start Now",
-  imgStart: false,
-  img: Moneys,
-  alt: "moneys",
-  dark: false,
-  darkText: false,
-  primary: true,
-};
-export const homeObjFive = {
   id: "signUp",
   lightBg: true,
   lightText: false,
